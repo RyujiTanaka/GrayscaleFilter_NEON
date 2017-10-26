@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052" moduleId="org.eclipse.cdt.core.settings" name="NEON">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="NEON-RZ_A1H_GRAY" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052" name="NEON" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.183217547" name="ARM Compiler 5" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052..1682111192" name=""/>
+							<builder buildPath="${workspace_loc:/NEON/Debug}" id="com.arm.toolchain.baremetal.builder.462984547" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make ビルダー" superClass="com.arm.toolchain.baremetal.builder"/>
+							<tool command="armcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="com.arm.tool.c.compiler.baremetal.exe.debug.430013615" name="ARM C Compiler 5" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.defmac.959493191" name="マクロの定義 (-D)" superClass="com.arm.tool.c.compiler.option.defmac" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MICROLIB"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.incpath.228894662" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.2014543524" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" useByScannerDiscovery="true" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.inst.1157070884" name="命令セット" superClass="com.arm.tool.c.compiler.option.inst" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.inter.1532751184" name="インターワーク (--apcs=/interwork)" superClass="com.arm.tool.c.compiler.option.inter" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.flags.1670953782" name="その他のフラグ" superClass="com.arm.tool.c.compiler.option.flags" useByScannerDiscovery="true" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt.105073227" name="最適化レベル" superClass="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optlevel.high" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1210610263" name="ベクトル化 (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.optfor.627720076" name="最適化" superClass="com.arm.tool.c.compiler.option.optfor" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optfor.time" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.loopopt.818562830" name="ループ最適化（--loop_optimization_level）" superClass="com.arm.tool.c.compiler.option.loopopt" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.option.loopopt.default" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.warnsev.1358197447" name="警告の重大度 (--diag_warning)" superClass="com.arm.tool.c.compiler.option.warnsev" useByScannerDiscovery="false" value="optimizations" valueType="string"/>
+								<inputType id="com.arm.tool.c.compiler.input.181269277" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1752940252" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.657127986" name="ARM C++ Compiler 5" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.193508120" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
+								</option>
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt.339686311" name="最適化レベル" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1547948946" name="ARM Assembler 5" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.inter.1843422917" name="インターワーク (--apcs=/interwork)" superClass="com.arm.tool.assembler.option.inter" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.cpu.1381019298" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.endian.378949242" name="バイト順序" superClass="com.arm.tool.assembler.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.491368613" name="その他のフラグ" superClass="com.arm.tool.assembler.option.flags" valueType="stringList">
+									<listOptionValue builtIn="false" value="--pd &quot;__MICROLIB SETA 1&quot; --pd &quot;__FPU_PRESENT SETA 1&quot;"/>
+								</option>
+								<option id="com.arm.tool.assembler.option.sup.419878487" name="Suppress/抑制する（--diag_suppress）" superClass="com.arm.tool.assembler.option.sup" value="1786" valueType="string"/>
+								<inputType id="com.arm.tool.assembler.input.1721535205" superClass="com.arm.tool.assembler.input"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.1893120245" name="ARM Linker 5" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.entry.418173892" name="イメージエントリポイント (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__Vectors" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.cpu.543258368" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.1730814972" name="スキャッタファイル (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="../scatter.scat" valueType="string"/>
+								<option id="com.arm.tool.c.linker.userobjs.124563740" name="その他のオブジェクトファイル" superClass="com.arm.tool.c.linker.userobjs"/>
+								<option id="com.arm.tool.c.linker.option.eleminate.1004539485" name="未使用セクションを削除する (--remove)" superClass="com.arm.tool.c.linker.option.eleminate" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.callgraph.1731081130" name="コールグラフを生成する (--callgraph)" superClass="com.arm.tool.c.linker.option.callgraph" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1696279848" name="イメージのマップを生成する (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.totals.682465421" name="出力イメージのコードサイズとデータサイズの合計を一覧表示する (info=totals)" superClass="com.arm.tool.c.linker.option.totals" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.elim.1633451295" name="削除された未使用セクションを一覧表示する (--info=unused)" superClass="com.arm.tool.c.linker.option.elim" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.flags.2986525" name="その他のフラグ" superClass="com.arm.tool.c.linker.option.flags" valueType="stringList">
+									<listOptionValue builtIn="false" value="--info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map"/>
+								</option>
+								<option id="com.arm.tool.c.linker.libs.400661891" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
+								</option>
+								<inputType id="com.arm.tool.c.linker.input.931518044" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.25224258" name="ARM Librarian 5" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052.873532975">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052.873532975" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="NEON-RZ_A1H_GRAY" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052.873532975" name="Default" parent="com.arm.eclipse.build.config.baremetal.exe.debug">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.2022007052.873532975." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.2101633395" name="ARM Compiler 5" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<targetPlatform id="com.arm.toolchain.baremetal.exe.debug.2101633395.1536004497" name=""/>
+							<builder buildPath="${workspace_loc:/NEON/Debug}" id="com.arm.toolchain.baremetal.builder.457353145" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make ビルダー" superClass="com.arm.toolchain.baremetal.builder"/>
+							<tool command="armcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="com.arm.tool.c.compiler.baremetal.exe.debug.941785415" name="ARM C Compiler 5" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.defmac.1145674392" name="マクロの定義 (-D)" superClass="com.arm.tool.c.compiler.option.defmac" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MICROLIB"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.incpath.1278478734" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.846995553" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" useByScannerDiscovery="true" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.inst.104944896" name="命令セット" superClass="com.arm.tool.c.compiler.option.inst" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.inter.409621488" name="インターワーク (--apcs=/interwork)" superClass="com.arm.tool.c.compiler.option.inter" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.flags.2107737197" name="その他のフラグ" superClass="com.arm.tool.c.compiler.option.flags" useByScannerDiscovery="true" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt.463623263" name="最適化レベル" superClass="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optlevel.high" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.vector.1484295091" name="ベクトル化 (--vectorize)" superClass="com.arm.tool.c.compiler.option.vector" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.optfor.1137747259" name="最適化" superClass="com.arm.tool.c.compiler.option.optfor" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optfor.time" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.loopopt.800901186" name="ループ最適化（--loop_optimization_level）" superClass="com.arm.tool.c.compiler.option.loopopt" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.option.loopopt.default" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.warnsev.682710932" name="警告の重大度 (--diag_warning)" superClass="com.arm.tool.c.compiler.option.warnsev" useByScannerDiscovery="false" value="" valueType="string"/>
+								<inputType id="com.arm.tool.c.compiler.input.1934257822" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.488974395" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.1703303889" name="ARM C++ Compiler 5" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option id="com.arm.tool.c.compiler.option.incpath.369331396" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
+								</option>
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt.87430056" name="最適化レベル" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.2079170412" name="ARM Assembler 5" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.inter.38487531" name="インターワーク (--apcs=/interwork)" superClass="com.arm.tool.assembler.option.inter" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.cpu.1521932672" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.endian.410809580" name="バイト順序" superClass="com.arm.tool.assembler.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.flags.335171819" name="その他のフラグ" superClass="com.arm.tool.assembler.option.flags" valueType="stringList">
+									<listOptionValue builtIn="false" value="--pd &quot;__MICROLIB SETA 1&quot; --pd &quot;__FPU_PRESENT SETA 1&quot;"/>
+								</option>
+								<option id="com.arm.tool.assembler.option.sup.579452683" name="Suppress/抑制する（--diag_suppress）" superClass="com.arm.tool.assembler.option.sup" value="1786" valueType="string"/>
+								<inputType id="com.arm.tool.assembler.input.1490803783" superClass="com.arm.tool.assembler.input"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.1700290838" name="ARM Linker 5" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.entry.1663088912" name="イメージエントリポイント (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="__Vectors" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.cpu.1085368653" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-A9" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.1215157921" name="スキャッタファイル (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="../scatter.scat" valueType="string"/>
+								<option id="com.arm.tool.c.linker.userobjs.1305938620" name="その他のオブジェクトファイル" superClass="com.arm.tool.c.linker.userobjs"/>
+								<option id="com.arm.tool.c.linker.option.eleminate.1856231486" name="未使用セクションを削除する (--remove)" superClass="com.arm.tool.c.linker.option.eleminate" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.callgraph.1393369091" name="コールグラフを生成する (--callgraph)" superClass="com.arm.tool.c.linker.option.callgraph" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1441322373" name="イメージのマップを生成する (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.totals.1220612498" name="出力イメージのコードサイズとデータサイズの合計を一覧表示する (info=totals)" superClass="com.arm.tool.c.linker.option.totals" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.elim.365465505" name="削除された未使用セクションを一覧表示する (--info=unused)" superClass="com.arm.tool.c.linker.option.elim" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.flags.819170125" name="その他のフラグ" superClass="com.arm.tool.c.linker.option.flags" valueType="stringList">
+									<listOptionValue builtIn="false" value="--info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map"/>
+								</option>
+								<option id="com.arm.tool.c.linker.libs.1316644596" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
+								</option>
+								<inputType id="com.arm.tool.c.linker.input.1490680167" superClass="com.arm.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.tool.librarian.712529641" name="ARM Librarian 5" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="NEON.com.arm.eclipse.build.project.baremetal.exe.394378377" name="Bare-metal Executable" projectType="com.arm.eclipse.build.project.baremetal.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

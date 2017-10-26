@@ -1,0 +1,36 @@
+;**************************************************
+; Copyright (c) 2013 ARM Ltd.  All rights reserved.
+;**************************************************
+
+; Scatter-file for RTX Example on Versatile Express
+
+; This scatter-file places application code, data, stack and heap at suitable addresses in the memory map.
+
+; This platform has 2GB SDRAM starting at 0x80000000.
+
+
+SDRAM 0x80000000 0x40000000
+{
+    VECTORS +0 0x200000
+    {
+        * (RESET, +FIRST)         ; Vector table and other (assembler) startup code
+        * (InRoot$$Sections)      ; All (library) code that must be in a root region
+        * (+RO-CODE)              ; Application RO code (.text)
+        * (+RO-DATA)              ; Application RO data (.constdata)
+    }
+
+    RW_DATA 0x80200000 0x100000
+    { * (+RW) }                   ; Application RW data (.data)
+
+    ZI_DATA 0x80300000 0x100000
+    { * (+ZI) }                   ; Application ZI data (.bss)
+
+    TTB     0x80500000 EMPTY 0x4000
+    { }                           ; Level-1 Translation Table for MMU
+
+                                  ; reserved SRC_BUFFER (0x80600000 to 0x806E1000 size 0x000E1000)
+                                  ; reserved DST_BUFFER (0x80700000 to 0x807E1000 size 0x000E1000)
+    SRC_BUFFER 0x80600000 EMPTY 0x000E1000 {}
+    DST_BUFFER 0x80700000 EMPTY 0x000E1000 {}
+
+}
