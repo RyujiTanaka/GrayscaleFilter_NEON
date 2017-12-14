@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.arm.debugger.launcher2">
+<stringAttribute key="2617613501826901526.viewid=2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20400000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24-bit RGB with 8 bits per component&quot; pixelByteOrder=&quot;LE&quot;/&gt;&#10;"/>
+<stringAttribute key="4591424260300336049.viewid=2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20750000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24 ビットの RGB (コンポーネントあたり 8 ビット)&quot; pixelByteOrder=&quot;LE&quot;/&gt;&#10;"/>
+<stringAttribute key="6256178221206029358.viewid=2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20400000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24 ビットの RGB (コンポーネントあたり 8 ビット)&quot; pixelByteOrder=&quot;LE&quot;/&gt;&#10;"/>
 <stringAttribute key="8185519453178815665.viewid=2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20750000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24 ビットの RGB (コンポーネントあたり 8 ビット)&quot; pixelByteOrder=&quot;BE&quot;/&gt;&#10;"/>
 <stringAttribute key="ANDROID_ACTIVITY_NAME" value=""/>
 <stringAttribute key="ANDROID_APPLICATION" value=""/>
@@ -7,57 +10,61 @@
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
 <mapEntry key="*Fetching Data" value="29379986"/>
-<mapEntry key="*Fetching Data Model" value="235452"/>
+<mapEntry key="*Fetching Data Model" value="476664"/>
 <mapEntry key="*dump" value="28504225"/>
-<mapEntry key="*list global low level symbols" value="826631"/>
+<mapEntry key="*list global low level symbols" value="628132"/>
 <mapEntry key="*loading memory from target" value="5268526"/>
 <mapEntry key="*loading values from target" value="4005653"/>
-<mapEntry key="*read memory" value="36363668019"/>
-<mapEntry key="*trace" value="163862654"/>
+<mapEntry key="*read memory" value="3926754884"/>
+<mapEntry key="*trace" value="165028653"/>
 <mapEntry key="*updating registers" value="199597056"/>
 <mapEntry key="*updating variables" value="774666"/>
-<mapEntry key="AddEventObserver" value="1454850"/>
-<mapEntry key="Evaluate" value="1228105"/>
-<mapEntry key="areCachesAvailable" value="522122"/>
-<mapEntry key="break" value="4147820"/>
-<mapEntry key="checking tracepoints" value="25586"/>
-<mapEntry key="compute execution mode" value="553392"/>
-<mapEntry key="console" value="6522889"/>
-<mapEntry key="continue" value="37708268"/>
+<mapEntry key="AddEventObserver" value="3910568"/>
+<mapEntry key="Evaluate" value="740288"/>
+<mapEntry key="ListRegimeWarningsCommand" value="117424"/>
+<mapEntry key="areCachesAvailable" value="347234"/>
+<mapEntry key="break" value="9881758"/>
+<mapEntry key="checking tracepoints" value="16943"/>
+<mapEntry key="compute execution mode" value="1103426"/>
+<mapEntry key="console" value="13694800901"/>
+<mapEntry key="continue" value="13463287"/>
 <mapEntry key="core" value="5621966"/>
-<mapEntry key="disassemble" value="81457028"/>
-<mapEntry key="evaluate address" value="29037037"/>
-<mapEntry key="finish" value="15907455"/>
+<mapEntry key="disassemble" value="48270528"/>
+<mapEntry key="evaluate address" value="1366619"/>
+<mapEntry key="finish" value="14772547"/>
 <mapEntry key="get byte order" value="178287"/>
-<mapEntry key="get capabilities" value="206305"/>
+<mapEntry key="get capabilities" value="342030"/>
 <mapEntry key="get cwd" value="423183"/>
-<mapEntry key="get execution addresss" value="754453"/>
-<mapEntry key="get source lines" value="279522"/>
-<mapEntry key="getValidEncodings" value="479440"/>
+<mapEntry key="get execution addresss" value="335824"/>
+<mapEntry key="get source lines" value="225181"/>
+<mapEntry key="getValidEncodings" value="196311"/>
 <mapEntry key="handle signal" value="1879849"/>
-<mapEntry key="initialize command help" value="32161025"/>
-<mapEntry key="interrupt" value="63662161"/>
-<mapEntry key="list breakpoint options" value="149784"/>
-<mapEntry key="list breakpoints" value="579304"/>
-<mapEntry key="list instruction sets" value="295390"/>
-<mapEntry key="list signals" value="34863972"/>
-<mapEntry key="list watchpoint options" value="458570"/>
-<mapEntry key="list watchpoints" value="439295"/>
-<mapEntry key="loadfile" value="1294372846"/>
-<mapEntry key="next" value="26251221"/>
-<mapEntry key="remove" value="3172362"/>
-<mapEntry key="run script" value="37804814244"/>
-<mapEntry key="set CWD" value="2984952"/>
-<mapEntry key="set breakpoint properties" value="7342004"/>
-<mapEntry key="set debug-from" value="834296"/>
+<mapEntry key="initialize command help" value="31892069"/>
+<mapEntry key="interrupt" value="11593992"/>
+<mapEntry key="list breakpoint options" value="87233"/>
+<mapEntry key="list breakpoints" value="769684"/>
+<mapEntry key="list instruction sets" value="360690"/>
+<mapEntry key="list signals" value="14645124"/>
+<mapEntry key="list translations" value="179053"/>
+<mapEntry key="list watchpoint options" value="862816"/>
+<mapEntry key="list watchpoints" value="335848"/>
+<mapEntry key="loadfile" value="290172865"/>
+<mapEntry key="next" value="20421541"/>
+<mapEntry key="remove" value="11212875"/>
+<mapEntry key="run script" value="3438903102"/>
+<mapEntry key="set CWD" value="2405311"/>
+<mapEntry key="set breakpoint properties" value="17146297"/>
+<mapEntry key="set debug-from" value="937380"/>
 <mapEntry key="source cnn_import.py" value="620248029538"/>
 <mapEntry key="source image_import.py" value="3439272927947"/>
-<mapEntry key="start" value="123462196"/>
-<mapEntry key="step" value="29411508"/>
-<mapEntry key="synchronizing trace ranges" value="15106"/>
-<mapEntry key="toggleBreakpoint" value="41440146"/>
+<mapEntry key="start" value="43522096"/>
+<mapEntry key="step" value="23010247"/>
+<mapEntry key="stepi" value="16861341"/>
+<mapEntry key="synchronizing trace ranges" value="250123"/>
+<mapEntry key="toggleBreakpoint" value="20665962"/>
 <mapEntry key="updateBreakpointLocation" value="847281"/>
-<mapEntry key="waitForTargetToStop" value="525411093"/>
+<mapEntry key="updating MMU tables" value="171737"/>
+<mapEntry key="waitForTargetToStop" value="299179382"/>
 <mapEntry key="write memory" value="68200667"/>
 <mapEntry key="グローバルリストの取得" value="6879910"/>
 </mapAttribute>
@@ -75,37 +82,43 @@
 <stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
 <intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
 <listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
-<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="APPLICATION_ON_TARGET"/>
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
-<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="APPLICATION_ON_TARGET"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
 <intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
-<listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+<listAttribute key="FILES.DOWNLOAD_AND_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
-<listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+<listAttribute key="FILES.DOWNLOAD_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
@@ -140,7 +153,7 @@
 <stringAttribute key="HOST_WORKING_DIR" value="${workspace_loc}"/>
 <booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
 <booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="true"/>
-<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="restore &quot;${workspace_loc:/RTX_Renesas_NEON_GRAY/Default/scripts/picture.bin}&quot; binary 0x20650000"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="restore &quot;${workspace_loc:/RTX_Renesas_NEON_GRAY/Default/scripts/picture.bin}&quot; binary 0x20300000"/>
 <intAttribute key="Messages.POST_TRIGGER_CAPTURE_SIZE.getLocalisedValue().ETF" value="50"/>
 <booleanAttribute key="Messages.STOP_ON_TRIGGER.getLocalisedValue().ETF" value="false"/>
 <booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
@@ -156,24 +169,18 @@
 <booleanAttribute key="VFS_ENABLED" value="true"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;RAW_EXEC_ADDRESS&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020AF4&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop NEON/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop NEON\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;77&quot; function=&quot;convert&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020AF4&quot; debugFile=&quot;C:/Users/ryutan01/Documents/test1213/RTX_Renesas_NEON_GRAY/ARM/startup_Renesas_RZ_A1.s&quot; hostFile=&quot;C:\Users\ryutan01\Documents\test1213\RTX_Renesas_NEON_GRAY\ARM\startup_Renesas_RZ_A1.s&quot; line=&quot;314&quot; function=&quot;convert&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;RAW_EXEC_ADDRESS&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020B34&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop NEON/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop NEON\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;100&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020B34&quot; debugFile=&quot;C:/Users/ryutan01/Documents/test1213/RTX_Renesas_NEON_GRAY/ARM/startup_Renesas_RZ_A1.s&quot; hostFile=&quot;C:\Users\ryutan01\Documents\test1213\RTX_Renesas_NEON_GRAY\ARM\startup_Renesas_RZ_A1.s&quot; line=&quot;343&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop NEON/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop NEON\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;109&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop NEON/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop NEON\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;109&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop 1213/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop 1213\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop 1213/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop 1213\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop BaremetalStreamline/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop BaremetalStreamline\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;C:/Users/ryutan01/Documents/DS-5 Workshop BaremetalStreamline/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\DS-5 Workshop BaremetalStreamline\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020E26&quot; debugFile=&quot;C:/Users/ryutan01/Documents/test1213/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\test1213\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x20020E26&quot; debugFile=&quot;C:/Users/ryutan01/Documents/test1213/RTX_Renesas_NEON_GRAY/NEON.c&quot; hostFile=&quot;C:\Users\ryutan01\Documents\test1213\RTX_Renesas_NEON_GRAY\NEON.c&quot; line=&quot;174&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
-<listEntry value="&lt;次の命令&gt;"/>
 <listEntry value=""/>
-<listEntry value="convolution"/>
-<listEntry value="convolution"/>
+<listEntry value="&lt;次の命令&gt;"/>
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
-<listEntry value="100"/>
 <listEntry value=""/>
 <listEntry value="100"/>
-<listEntry value="1000"/>
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
 <listEntry value=""/>
-<listEntry value="0x80600000"/>
-<listEntry value="0x80200000"/>
-<listEntry value="0x80300000"/>
+<listEntry value="convert"/>
 <listEntry value="0x20650000"/>
 <listEntry value="0x206543cc"/>
 <listEntry value="0x20650bfa"/>
@@ -194,10 +201,8 @@
 <listEntry value="1024"/>
 <listEntry value="1024"/>
 <listEntry value="1024"/>
-<listEntry value="1024"/>
-<listEntry value="1024"/>
 </listAttribute>
-<stringAttribute key="com.arm.debug.views.debugConsole.DebugCommandLine.History" value="dump binary memory &quot;RTX_Renesas_NEON_MNIST/scripts/ds5_params_after.bin;dump binary memory &quot;RTX_Renesas_NEON_MNIST/scripts/ds5_params_after.bin&quot; 0x20650000 0x2069E528;memory set_typed S:0x20650000 (unsigned __int128)  0x0C0A0C0D0B0D0E0B0D0E0A0C0D090B0C"/>
+<stringAttribute key="com.arm.debug.views.debugConsole.DebugCommandLine.History" value="dump memory &quot;barman.raw&quot; 0x20500000 +0x300000"/>
 <listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 </listAttribute>
@@ -219,7 +224,7 @@
 <stringAttribute key="config_db_taxonomy_id" value="/platform/renesas/r7s721001"/>
 <stringAttribute key="config_file" value="CDB://Renesas_R7S72100.rvc"/>
 <booleanAttribute key="connectOnly" value="false"/>
-<stringAttribute key="connection_type" value="mbed CMSIS-DAP"/>
+<stringAttribute key="connection_type" value="ULINKpro D"/>
 <stringAttribute key="debugger.view.DataView.os:DataView" value="rO0ABXNyACtjb20uYXJtLmRlYnVnLnZpZXdzLmRhdGEuRGF0YVZpZXdQcm9wZXJ0aWVzAAAAAAAAAAECAAB4cgAlY29tLmFybS5kZWJ1Zy52aWV3cy5kYXRhLlByb3BlcnR5VHJlZQAAAAAAAAABAwABTAAFbURhdGF0ABNMamF2YS91dGlsL0hhc2hNYXA7eHB3BAAAAAJ0ABJkYXRhYmFzZVByb3BlcnRpZXNzcQB+AAF3BAAAAAF0AANydHhzcgArY29tLmFybS5kZWJ1Zy52aWV3cy5kYXRhLkRhdGFiYXNlUHJvcGVydGllcwAAAAAAAAABAgAAeHEAfgABdwQAAAACdAAGdGFibGVzc3EAfgABdwQAAAABdAAGc3RhY2tzc3IAKGNvbS5hcm0uZGVidWcudmlld3MuZGF0YS5UYWJsZVByb3BlcnRpZXMAAAAAAAAAAQIAAHhxAH4AAXcEAAAABHQAAmlkcQB+AAt0ABBjb2x1bW5BdXRvUmVzaXplc3EAfgABdwQAAAAIdAABMHQABHRydWV0AAExcQB+ABJ0AAEycQB+ABJ0AAEzcQB+ABJ0AAItMXEAfgASdAABNHEAfgASdAABNXEAfgASdAABNnEAfgASeHQADGNvbHVtbldpZHRoc3NxAH4AAXcEAAAACHQAATB0AAI2M3QAATF0AAMxMzV0AAEydAADMjU3dAABM3QAAzEyMXQAAi0xdAACMjZ0AAE0dAADMTM1dAABNXQAAzE3NXQAATZ0AAMxMjl4dAAGY29uZmlndADQT3V0bGluZUNvbmZpZzEJOAktMQlmYWxzZQl0cnVlCTI2CS0xCXRydWUJMAl0cnVlCXRydWUJNjMJLTEJdHJ1ZQkxCXRydWUJdHJ1ZQkxMzUJLTEJdHJ1ZQkyCXRydWUJdHJ1ZQkyNTcJLTEJdHJ1ZQkzCXRydWUJdHJ1ZQkxMjEJLTEJdHJ1ZQk0CXRydWUJdHJ1ZQkxMzUJLTEJdHJ1ZQk1CXRydWUJdHJ1ZQkxNzUJLTEJdHJ1ZQk2CXRydWUJdHJ1ZQkxMjkJLTEJdHJ1ZXh4dAACaWRxAH4ABnh4dAAPY3VycmVudERhdGFiYXNldAADcnR4eA=="/>
 <mapAttribute key="debugger.view.DataView:DataView.ColumnWidthsMap">
 <mapEntry key="tasks" value="3,68;2,60;1,92;0,55;7,181;6,80;-1,24;5,84;4,51;9,150;8,82"/>
@@ -244,12 +249,13 @@
 <listEntry value="mailboxes"/>
 </listAttribute>
 <listAttribute key="debugger.view.DisassemblyView:current">
-<listEntry value="&lt;次の命令&gt;"/>
-<listEntry value="100"/>
+<listEntry value=""/>
+<listEntry value=""/>
 </listAttribute>
 <listAttribute key="debugger.view.ExpressionsView"/>
 <mapAttribute key="debugger.view.ExpressionsView.ExpressionsData"/>
 <stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;76&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.MMUView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;false&#9;16&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;115&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;115&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;56&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_16&quot; formatTag=&quot;16進&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
 <listAttribute key="debugger.view.MemoryView:current">
 <listEntry value=""/>
@@ -258,26 +264,28 @@
 <stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;36&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;74&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;56&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;76&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="すべてのレジスター"/>
 <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
-<stringAttribute key="debugger.view.ScreenView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20650000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24 ビットの RGB (コンポーネントあたり 8 ビット)&quot; pixelByteOrder=&quot;LE&quot;/&gt;&#10;"/>
-<stringAttribute key="debugger.view.TraceView:INDEX_PRESENTATION_TYPE" value="START"/>
+<stringAttribute key="debugger.view.ScreenView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;screenParameters screenBase=&quot;0x20300000&quot; screenWidth=&quot;640&quot; screenHeight=&quot;480&quot; scanLine=&quot;1&quot; pixelType=&quot;24 ビットの RGB (コンポーネントあたり 8 ビット)&quot; pixelByteOrder=&quot;LE&quot;/&gt;&#10;"/>
+<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;76&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.TraceView:INDEX_PRESENTATION_TYPE" value="END"/>
 <listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
-<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;225&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;91&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;76&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;225&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;91&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;36&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;76&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;60&#9;1&#9;true&#9;1&#9;false&#9;true&#9;166&#9;-1&#9;true&#9;2&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;119&#9;0&#9;true&#9;4&#9;true&#9;true&#9;119&#9;-1&#9;true&#9;5&#9;false&#9;true&#9;62&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;136&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;71&#9;-1&#9;true"/>
 <booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
 <booleanAttribute key="debugger.view.レジスタ.DrawAsHex" value="false"/>
 <booleanAttribute key="debugger.view.式.DrawAsHex" value="false"/>
 <stringAttribute key="ds5_launch_configuration_version" value="5.12"/>
 <stringAttribute key="dtsl_config" value="DtslScript_ULINK"/>
 <stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
-<stringAttribute key="dtsl_options_file" value="On Chip Trace Buffer"/>
+<stringAttribute key="dtsl_options_file" value="default"/>
 <stringAttribute key="dtsl_tracecapture_option" value="options.trace.traceCapture"/>
 <booleanAttribute key="linuxOS" value="false"/>
 <stringAttribute key="model_params" value=""/>
 <stringAttribute key="os_extension_id" value="com.arm.debug.os.rtx"/>
 <stringAttribute key="rddi_type" value="rddi-debug-rvi"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
-<stringAttribute key="rvi_address" value="55000000116944a100000000000000000000000097969902:ARM DAPLink CMSIS-DAP"/>
+<stringAttribute key="rvi_address" value="D1342055:Keil ULINKpro D"/>
 <listAttribute key="scripts_view_expanded_nodes">
 <listEntry value="#Jython"/>
 </listAttribute>
@@ -289,6 +297,6 @@
 </mapAttribute>
 <stringAttribute key="signalSettings" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;signals&gt;&#10;&#9;&lt;signal signal_name=&quot;RESET&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;UNDEF&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;SVC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;PREFETCH_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;DATA_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;SMC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_PREFETCH_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_DATA_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;MONITOR_FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_UNDEF&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_SVC&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_PREFETCH_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_DATA_ABORT&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_IRQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&#9;&lt;signal signal_name=&quot;NON-SECURE_FIQ&quot; signal_stop=&quot;no&quot; signal_print=&quot;no&quot;/&gt;&#10;&lt;/signals&gt;&#10;"/>
 <stringAttribute key="stopAtExpression" value="main"/>
-<stringAttribute key="traceranges" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;traceranges&gt;&#10;&lt;/traceranges&gt;&#10;"/>
+<stringAttribute key="traceranges" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;traceranges&gt;&#10;&#9;&lt;TraceRange startExpression=&quot;S:0x20020B62&quot; endExpression=&quot;S:0x20020BA0&quot; enabled=&quot;true&quot;/&gt;&#10;&lt;/traceranges&gt;&#10;"/>
 <stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
 </launchConfiguration>

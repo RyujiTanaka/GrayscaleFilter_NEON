@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := C:/Users/ryutan01/Documents/DS-5\ Workshop\ NEON/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib
+LIBS := C:/Users/ryutan01/Documents/test1213/barman-CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib
 

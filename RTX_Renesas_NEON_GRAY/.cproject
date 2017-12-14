@@ -22,11 +22,11 @@
 									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
 								</option>
 								<option id="com.arm.tool.c.compiler.option.incpath.228894662" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
 								</option>
 								<option id="com.arm.tool.c.compiler.option.targetcpu.2014543524" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" useByScannerDiscovery="true" value="Cortex-A9" valueType="string"/>
@@ -40,6 +40,9 @@
 								<option id="com.arm.tool.c.compiler.option.optfor.627720076" name="最適化" superClass="com.arm.tool.c.compiler.option.optfor" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optfor.time" valueType="enumerated"/>
 								<option id="com.arm.tool.c.compiler.option.loopopt.818562830" name="ループ最適化（--loop_optimization_level）" superClass="com.arm.tool.c.compiler.option.loopopt" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.option.loopopt.default" valueType="enumerated"/>
 								<option id="com.arm.tool.c.compiler.option.warnsev.1358197447" name="警告の重大度 (--diag_warning)" superClass="com.arm.tool.c.compiler.option.warnsev" useByScannerDiscovery="false" value="optimizations" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.target.enableToolSpecificSettings.1046354524" name="ツール固有の設定を有効にする" superClass="com.arm.tool.c.compiler.option.target.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.preproc.enableToolSpecificSettings.1689645560" name="ツール固有の設定を有効にする" superClass="com.arm.tool.c.compiler.option.preproc.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.gnu.1317894633" name="GNU 拡張機能を有効にする (--gnu)" superClass="com.arm.tool.c.compiler.option.gnu" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<inputType id="com.arm.tool.c.compiler.input.181269277" superClass="com.arm.tool.c.compiler.input"/>
 								<inputType id="com.arm.tool.cpp.compiler.input.1752940252" superClass="com.arm.tool.cpp.compiler.input"/>
 							</tool>
@@ -62,6 +65,9 @@
 									<listOptionValue builtIn="false" value="--pd &quot;__MICROLIB SETA 1&quot; --pd &quot;__FPU_PRESENT SETA 1&quot;"/>
 								</option>
 								<option id="com.arm.tool.assembler.option.sup.419878487" name="Suppress/抑制する（--diag_suppress）" superClass="com.arm.tool.assembler.option.sup" value="1786" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.target.enableToolSpecificSettings.1993030522" name="ツール固有の設定を有効にする" superClass="com.arm.tool.assembler.option.target.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.preproc.enableToolSpecificSettings.1615709345" name="ツール固有の設定を有効にする" superClass="com.arm.tool.assembler.option.preproc.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.assembler.option.debug.enableToolSpecificSettings.707422969" name="ツール固有の設定を有効にする" superClass="com.arm.tool.assembler.option.debug.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="com.arm.tool.assembler.input.1721535205" superClass="com.arm.tool.assembler.input"/>
 							</tool>
 							<tool id="com.arm.tool.c.linker.1893120245" name="ARM Linker 5" superClass="com.arm.tool.c.linker">
@@ -77,9 +83,10 @@
 								<option id="com.arm.tool.c.linker.option.flags.2986525" name="その他のフラグ" superClass="com.arm.tool.c.linker.option.flags" valueType="stringList">
 									<listOptionValue builtIn="false" value="--info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map"/>
 								</option>
-								<option id="com.arm.tool.c.linker.libs.400661891" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
+								<option id="com.arm.tool.c.linker.libs.400661891" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/barman-CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
 								</option>
+								<option id="com.arm.tool.c.linker.option.libs.enableToolSpecificSettings.1361299971" name="ツール固有の設定を有効にする" superClass="com.arm.tool.c.linker.option.libs.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="com.arm.tool.c.linker.input.931518044" superClass="com.arm.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
@@ -113,11 +120,11 @@
 									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
 								</option>
 								<option id="com.arm.tool.c.compiler.option.incpath.1278478734" name="インクルードパス (-I)" superClass="com.arm.tool.c.compiler.option.incpath" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/SRC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/INC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/barman-CMSIS_RTOS_RTX/RTOS/RTX/Boards/Renesas/RZ_A1H_GENMAI/INC}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}&quot;"/>
 								</option>
 								<option id="com.arm.tool.c.compiler.option.targetcpu.846995553" name="ターゲット CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" useByScannerDiscovery="true" value="Cortex-A9" valueType="string"/>
@@ -131,6 +138,9 @@
 								<option id="com.arm.tool.c.compiler.option.optfor.1137747259" name="最適化" superClass="com.arm.tool.c.compiler.option.optfor" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optfor.time" valueType="enumerated"/>
 								<option id="com.arm.tool.c.compiler.option.loopopt.800901186" name="ループ最適化（--loop_optimization_level）" superClass="com.arm.tool.c.compiler.option.loopopt" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.option.loopopt.default" valueType="enumerated"/>
 								<option id="com.arm.tool.c.compiler.option.warnsev.682710932" name="警告の重大度 (--diag_warning)" superClass="com.arm.tool.c.compiler.option.warnsev" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.preproc.enableToolSpecificSettings.184671743" name="ツール固有の設定を有効にする" superClass="com.arm.tool.c.compiler.option.preproc.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.gnu.27436105" name="GNU 拡張機能を有効にする (--gnu)" superClass="com.arm.tool.c.compiler.option.gnu" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.target.enableToolSpecificSettings.1659847547" superClass="com.arm.tool.c.compiler.option.target.enableToolSpecificSettings" value="true" valueType="boolean"/>
 								<inputType id="com.arm.tool.c.compiler.input.1934257822" superClass="com.arm.tool.c.compiler.input"/>
 								<inputType id="com.arm.tool.cpp.compiler.input.488974395" superClass="com.arm.tool.cpp.compiler.input"/>
 							</tool>
@@ -168,9 +178,10 @@
 								<option id="com.arm.tool.c.linker.option.flags.819170125" name="その他のフラグ" superClass="com.arm.tool.c.linker.option.flags" valueType="stringList">
 									<listOptionValue builtIn="false" value="--info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map"/>
 								</option>
-								<option id="com.arm.tool.c.linker.libs.1316644596" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
+								<option id="com.arm.tool.c.linker.libs.1316644596" name="ユーザライブラリファイル" superClass="com.arm.tool.c.linker.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc}/barman-CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib&quot;"/>
 								</option>
+								<option id="com.arm.tool.c.linker.option.libs.enableToolSpecificSettings.1476650247" name="ツール固有の設定を有効にする" superClass="com.arm.tool.c.linker.option.libs.enableToolSpecificSettings" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="com.arm.tool.c.linker.input.1490680167" superClass="com.arm.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
@@ -190,6 +201,14 @@
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="NEON">
+			<resource resourceType="PROJECT" workspacePath="/RTX_Renesas_NEON_GRAY"/>
+		</configuration>
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/RTX_Renesas_NEON_GRAY"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

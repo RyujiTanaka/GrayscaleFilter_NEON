@@ -62,7 +62,7 @@ all: NEON-RZ_A1H_GRAY.axf
 NEON-RZ_A1H_GRAY.axf: $(OBJS) ../scatter.scat $(USER_OBJS) $(LIBS)
 	@echo 'ビルド・ターゲット: $@'
 	@echo '呼び出し中: ARM Linker 5'
-	armlink --cpu=Cortex-A9 --entry=__Vectors --scatter="../scatter.scat" --callgraph --map --info=sizes --info=totals --info=unused --info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map -o "NEON-RZ_A1H_GRAY.axf" $(OBJS) $(USER_OBJS) "C:/Users/ryutan01/Documents/DS-5 Workshop NEON/CMSIS_RTOS_RTX/RTOS/RTX/LIB/ARM/RTX_CA9_L.lib"
+	armlink --cpu=Cortex-A9 --entry=__Vectors --scatter="../scatter.scat" --callgraph --map --info=sizes --info=totals --info=unused --info veneers --library_type=microlib --strict --summary_stderr --info summarysizes --xref --symbols --list NEON.map -o "NEON-RZ_A1H_GRAY.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'ビルド完了ターゲット: $@'
 	@echo ' '
 
